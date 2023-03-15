@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+font-family: 'Archivo Narrow',sans-serif;
+font-family: 'Oswald',sans-serif;
+font-family: 'Roboto',sans-serif; 
+
+*/
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 10px 10px;
+}
+
+img.logo {
+    max-width: 30px;
+}
+
+
+
+/* navbar css */
+
+.main-menu .nav-link {
+    color: rgb(250, 244, 244);
+    margin: 10px;
+    font-size: 14px;
+}
+
+.main-menu .nav-link i {
+    font-size: 22px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #2d7aa0;
+}
+
+/* silder css */
+.carousel-indicators [data-bs-target] {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #31809A;
+}
+
+/* home css */
+
+.features{
+    background-color: #fbfcfc;
+}
+
+.icon-box h3 a{
+    font-size: 18px;
+}
+
+/* .icon-box a i{ */
+    /* font-size: 10px; */
+    /* color: #B39CD0; */
+/* } */
+
+.departments{
+    padding: 50px;
+    background-color: #eae7ed;
+}
+
+.departments-title h3{
+    font-family: 'Roboto',sans-serif; 
+    color: black;
+}
+
+.departments-title{
+    border: 2px solid #b2b2b2;
+    background-color: #008E9B;
+}
+
+.card-title{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: green;
+}
+
+.card-title:hover{
+    color: red;
+}
+
+.card-btn-title{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgb(15, 113, 224);
+}
+
+.card-btn-title:hover{
+    color: rgb(8, 8, 8);
+}
+
+/* team */
+
+.Team{
+    padding: 120px;
+    background-color: #31809A;
+}
+
+.team-deatils{
+    padding: 90px;
+}
+
+/* blog */
+
+.blog{
+    padding: 50px;
+    background-color: #FCF7FF;
+}
+
+.blog-title h3{
+    font-family: 'Roboto',sans-serif; 
+    color: black;
+}
+
+.blog-title{
+    border: 1px solid #b2b2b2;
+    background-color: #4FFBDF;
+}
+
+/* Teacher */
+
+.Teacher{
+    padding: 120px;
+    background-color: #31809A;
+}
+
+.Teacher-deatils{
+    padding: 90px;
+}
+
+/* principal */
+.principal{
+    padding: 10px;
+    background-color: #9a9999;
+}
+
+.principal-img img{
+    max-width: 160px;
+}
+
+.principal-title h1{
+    font-size: 16px;
+    color: rgb(11, 11, 11);
+    font-family: 'Archivo Narrow',sans-serif;
+}
+
+.principal-title h4{
+    font-size: 14px;
+}
+.principal-title h6{
+    font-size: 12px;
+}
+
+/* notice */
+
+.notice-header{
+    padding: 150px;
+    background-color: #31809A;
+}
+
+.notice-board{
+    padding: 105px;
+    background-color: #FEFEDF;
+}
+
+.notice-title{
+    border: 2px solid #b2b2b2;
+    background-color: #D6E5EB; 
+}
+
+.online-title{
+    border: 2px solid #b2b2b2;
+    background-color: #D6E5EB;
+}
+
+.service-title{
+    border: 2px solid #b2b2b2;
+    background-color: #D6E5EB;
+}
+
+.service1-title{
+    border: 2px solid #b2b2b2;
+    background-color: #D6E5EB;
+}
+
+.noties{
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.about-campus{
+    padding: 35px;
+    background-color: #ffc5c5;
+}
+
+.notice{
+    padding: 35px;
+    background-color: #C4FCEF;
+}
+
+/* about css */
+
+.image{
+    padding: 22px;
+}
+
+.about{
+    padding: 100px;
+    color: #151616;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.about1{
+    padding: 50px;
+}
+
+.about1-title h1{
+    padding: 10px;
+    font-size: 40px;
+    color: #151616;
+}
+
+span{
+    padding: 10px;
+    font-size: 30px;
+    color: #151616;  
+}
+
+.help{
+    padding: 100px;
+}
+
+.photo{
+    padding: 100px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.photo-title h1{
+    color: #151616;
+}
+
+.page-header{
+    padding: 100px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.page-header-title h1{
+    color: #151616;
+}
+
+.details{
+    padding: 100px;
+    background-color: #FEFEDF;
+}
+
+.details-title p{
+    font-family: 'Open Sans', sans-serif;
+    color: #1A1A1A;
+}
+
+.Campus{
+    padding: 100px;
+    background-image: linear-gradient(to right top, #a5adb8, #b0b7c1, #bbc1ca, #c6cbd3, #d1d5dc);
+}
+
+.Campus-title p{
+    font-family: 'Open Sans', sans-serif;
+    color: #1A1A1A;
+}
+
+.academic{
+    padding: 60px;
+    background-color: #C4FCEF;
+}
+
+.academic-btn-title {
+    border: 1px solid #b2b2b2;
+    background-color: #ADC5CF;
+}
+
+.academic-btn-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    color: #151616;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.academic-btn-title h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #1A1A1A ;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.shift{
+    padding: 60px;
+    background-color: #FFFFFF;
+}
+
+.shift-btn-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    padding: 60px;
+    font-weight: 600;
+    color: #49719e;
+}
+
+.shift-btn-title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(22, 20, 20, 0.8);;
+}
+
+
+.admission{
+    padding: 60px;
+    background-color: #FCF7FF;
+}
+
+.admission-btn-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 600;
+    color: #011e3f;
+}
+
+.admission-btn-title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(22, 20, 20, 0.8);;
+}
+
+
+.admission-btn-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 600;
+    color: #011e3f;
+}
+
+.admission-btn-title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(22, 20, 20, 0.8);;
+}
+
+.gpa-grading{
+    padding: 70px;
+    background-color: #FBEAFF;
+}
+
+.gpa-grading-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    padding: 30px;
+    font-weight: 600;
+    color: #011e3f;
+}
+
+/* contact css */
+.page-contact{
+    padding: 60px;
+    background-color: #FEFEDF;
+}
+
+.contact-from {
+    background: #6a8344;
+    padding: 50px 0;
+}
+
+button.btn-sumbit {
+    background: #87d37c;
+    border: none;
+    display: inline-block;
+    padding: 14px 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* footer css */
+
+footer{
+    padding-top: 20px;
+    background-color: #1A1A1A;
+}
+
+.footer-title h4{
+    color: #FFFFFF;
+}
+
+.footer-title h6{
+    font-family: 'Titillium Web', sans-serif;
+    color: #FFFFFF;
+}
+
+.footer-title h6{
+    font-family: 'Titillium Web', sans-serif;
+    color: #FFFFFF;
+}
+
+.footer-title p{
+    font-family: 'Open Sans', sans-serif;
+    color: #acadb1;
+}
+
+.footer-title button{
+    color: #FFFFFF;
+}
+
+.footer-title ul{
+    list-style: none;
+}
+
+.footer-title ul li a{
+    color: #FFFFFF;
+}
+
+.footer-btn-title h6{
+    font-family: 'Open Sans', sans-serif;
+    color: #acadb1; 
+}
+
+/* Notice board page */
+.notice-table td {
+    text-align: start;
+}
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features {
+    padding-top: 0px;
+  }
+  
+  .features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid #eef0ef;
+  }
+  
+  .features .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  
+  .features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  .features .icon-box h3 a {
+    color: #37423b;
+    transition: 0.3s;
+  }
+  
+  .features .icon-box:hover {
+    border-color: #5fcf80;
+  }
+  
+  .features .icon-box:hover h3 a {
+    color: #5fcf80;
+  }
+
+  /* end of the features */
